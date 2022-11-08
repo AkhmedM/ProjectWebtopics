@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../src/ol/ol.css">
+    <link rel="stylesheet" href="../src/layerSwitcher/ol-layerswitcher.css">
+    <link rel="stylesheet" href="openL.css">
+    
+ 
+</head>
+
+<body class="min-h-screen text-blue-400 dark:bg-slate-700">
+    <div class="">
+        <div class="border-b-2 border-black">
+            <nav class="flex justify-between align-middle uppercase p-3 w-11/12 m-auto">
+                <h1 class="font-bold uppercase">
+                    <a href="index.html">Heartrepair</a>
+                </h1>
+                <ul class="flex justify-between w-2/12">
+                    <li>
+                        <a href="index.html">
+                            <span class="font-bold">Home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="store.html">
+                            <span class="font-bold">Store</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="about.html">
+                            <span class="font-bold">About</span>
+                        </a>
+                    </li>
+                    <li>
+                        <img class="sun cursor-pointer w-6" src="images/sun.png" alt="sun" >
+                    </li>
+                    <li>
+                        <img class="moon cursor-pointer w-5" src="images/moon.png" alt="sun" >
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <main>
+        <div class="grid place-content-center">
+            <div class="grid place-content-center text-2xl font-bold text-red-500 mt-4 p-5">
+                <h>Welkom bij Heartrepair</h>
+            </div>
+            <div class="text-center text-black dark:text-blue-400">
+                <p class="">Graag verwelkomen wij u op de website van Heartrepair.<br>
+                    Op deze website kunt u onze vestiging terug vinden op de kaart<br>als ook de openingsuren van
+                    onze
+                    winkel.<br>
+                    In onze online winkel is het mogelijk om uw favoriete gadgets te bestellen.<br> Indien u meer info
+                    wenst over
+                    onze winkelbaas kunt u terecht bij "About".
+                </p>
+            </div>
+        </div>
+
+    </main>
+    <div class="flex justify-center m-auto w-6/12 h-96 pt-5">
+            <div id="map" class="w-full h-full text-black font-bold">
+
+            </div> 
+    </div>
+    <footer class="sticky top-full mt-5 text-red-800 bg-blue-300 p-2">
+        <div class="flex justify-evenly text-sm w-3/12 mx-auto max-w-3xl">
+            <p class="naamWinkel">Heartrepair</p>
+            <p class="owner">Akhmed Mourdalov</p>
+        </div>
+        <div class="grid place-content-center text-sm w-3/12 mx-auto max-w-3xl">
+            <p>Copyright &copy; <script>
+                    document.write(new Date().getFullYear());
+                </script>
+            </p>
+        </div>
+    </footer>
+    <script src="../src/ol/ol.js"></script>
+    <script src="../src/layerSwitcher/ol-layerswitcher.js"></script>
+    <script src="main.js"></script>
+    <script src="dark.js"></script>
+    
+</body> 
+
+</html>

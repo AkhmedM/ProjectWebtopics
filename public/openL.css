@@ -1,0 +1,12 @@
+.myButton{
+    background-color: transparent;
+    color:black;
+    font-weight: 700;
+    text-align: center;
+    height: 25px;
+    width: 25px;
+    border-radius: 2px;
+    border: none;
+    align-items: center;
+}
+

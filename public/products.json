@@ -1,0 +1,23 @@
+[
+    {
+        "name":"atomstack",
+        "type": "laser",
+        "price": "€300",
+        "url": "images/atomstackA5.jpg"
+    },
+
+    {
+        "name":"smart watch",
+        "type": "gadget",
+        "price": "€30",
+        "url": "images/smartWatch.jpg"
+    },
+
+    {
+        "name":"portable monitor",
+        "type": "monitor",
+        "price": "€500",
+        "url": "images/portableMonitor.jpg"
+    }
+   
+]
